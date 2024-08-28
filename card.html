@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Carousel</title>
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <section class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </section>
+    <div class="sidebar">
+        <h2>Meet Our <br>Team !!!</h2>
+    </div>
+    <section class="Team">
+    <h2 class="heading">President</h2>
+    <div class="main1">
+    
+    <div class="slider">
+        <button1 class="prev" onclick="prevSlide1()">&#10094;</button1>
+        <div class="slider-content">
+            <div class="card" style="transform: translateX(0px) scale(0.8); z-index: 1;">
+                <img src="Samruddhi Jadhav.jpg" alt="Samruddhi Jadhav">
+                <h2>Samruddhi Jadhav</h2>
+                <p>Vice President</p>
+                <div class="social-icons">
+                    <a href="#" class="linkedin"></a>
+                    <a href="#" class="instagram"></a>
+                </div>
+            </div>
+            <div class="card" style="transform: translateX(-100px) scale(1); z-index: 0;">
+                <img src="Rutuja Jadhav.jpg" alt="Rutuja Jadhav">
+                <h2>Rutuja Jadhav</h2>
+                <p>President</p>
+                <div class="social-icons">
+                    <a href="#" class="linkedin"></a>
+                    <a href="#" class="instagram"></a>
+                </div>
+            </div>
+            <div class="card" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                <img src="Nikhil.jpg" alt="Nikhil Idlgave" height="445px" width="150px">
+                <h2>Nikhil Idlgave</h2>
+                <p>Vice President</p>
+                <div class="social-icons">
+                    <a href="#" class="linkedin"></a>
+                    <a href="#" class="instagram"></a>
+                </div>
+            </div>
+        </div>
+        <button1 class="next" onclick="nextSlide1()">&#10095;</button1>
+    </div>
+    </div>
+    <h2 class="heading">Secretary & Treasurer</h2>
+    <div class="main2">
+        
+        <div class="slider">
+            <button2 class="prev" onclick="prevSlide2()">&#10094;</button2>
+            <div class="slider-content">
+                <div class="card2" style="transform: translateX(-100px) scale(0.8); z-index: 0;">
+                    <img src="Jessica.jpg" alt="Jessica Kharche" height="445px" width="150px">
+                    <h2>Jessica Kharche</h2>
+                    <p>Secretary</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+                <div class="card2" style="transform: translateX(0px) scale(1); z-index: 1;">
+                    <img src="Shwetan Londhe.jpg" alt="Shwetan Londhe">
+                    <h2>Shwetan Londhe</h2>
+                    <p>Joint Secretary</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+                <div class="card2" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                    <img src="Raj.jpg" alt="Raj Biradar" height="445px" width="150px">
+                    <h2>Raj Biradar</h2>
+                    <p>Treasurer</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+                <div class="card2" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                    <img src="https://via.placeholder.com/150" alt="Pranav Patki" height="445px" width="150px">
+                    <h2>Pranav Patki</h2>
+                    <p>Treasurer</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+                <div class="card2" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                    <img src="Yogesh Thadake.jpg" alt="Yogesh Thadke">
+                    <h2>Yogesh Thadke</h2>
+                    <p>Joint Treasurer</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+                <div class="card2" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                    <img src="Pradnya Bagade.jpg" alt="Pradnya Bagade">
+                    <h2>Pradnya Bagade</h2>
+                    <p>Joint Treasurer</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <button2 class="next" onclick="nextSlide2()">&#10095;</button2>
+    </div>
+    </div>
+    <h2 class="heading">Technical Team</h2>
+    <div class="main3">
+        
+        <div class="slider">
+            <button3 class="prev" onclick="prevSlide3()">&#10094;</button3>
+            <div class="slider-content">
+                <div class="card3" style="transform: translateX(-100px) scale(1); z-index: 0;">
+                    <img src="Deven.jpg" alt="Deven Randhir" height="445px" width="150px">
+                    <h2>Deven Randhir</h2>
+                    <p>Technical Head</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+                <div class="card3" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                    <img src="Suyash Rane.jpg" alt="Suyash Rane" height="445px" width="150px">
+                    <h2>Suyash Rane</h2>
+                    <p>Technical Co-ordinator</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <button3 class="next" onclick="nextSlide3()">&#10095;</button3>
+    </div>
+    </div>
+    <section class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </section>
+    <h2 class="heading">Representatives</h2>
+    <div class="main4">
+        
+        <div class="slider">
+            <button4 class="prev" onclick="prevSlide4()">&#10094;</button4>
+            <div class="slider-content">
+                <div class="card4" style="transform: translateX(-100px) scale(0.8); z-index: 0;">
+                    <img src="Yash Hulge.jpg" alt="Yash Hulge" height="445px" width="150px">
+                    <h2>Yash Hulge</h2>
+                    <p>BE Representative</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+                <div class="card4" style="transform: translateX(0px) scale(1); z-index: 1;">
+                    <img src="Chetan Marathe.jpg" alt="Chetan Marathe">
+                    <h2>Chetan Marathe</h2>
+                    <p>TE Representative</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+                <div class="card4" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                    <img src="Arundhati Vaishnav.jpg" alt="Arundhati Vaishnav" >
+                    <h2>Arundhati Vaishnav</h2>
+                    <p>TE Representative</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+                <div class="card4" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                    <img src="Eesha Jayaraj.jpg" alt="Eesha Jayaraj">
+                    <h2>Eesha Jayaraj</h2>
+                    <p>TE Lady Representative</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+                <div class="card4" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                    <img src="Dhanesh Naiknare.jpg" alt="Dhanesh Naiknare">
+                    <h2>Dhanesh Naiknare</h2>
+                    <p>SE Representative</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+                <div class="card4" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                    <img src="Siddhi Holam.jpg" alt="Siddhi Holam">
+                    <h2>Siddhi Holam</h2>
+                    <p>SE Lady Representative</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <button4 class="next" onclick="nextSlide4()">&#10095;</button4>
+    </div>
+    </div>
+    <h2 class="heading">Design Team</h2>
+    <div class="main5">
+        
+        <div class="slider">
+            <button5 class="prev" onclick="prevSlide5()">&#10094;</button5>
+            <div class="slider-content">
+                <div class="card5" style="transform: translateX(-100px) scale(0.8); z-index: 0;">
+                    <img src="Abhay Chabuk.jpg" alt="Abhay Chabuk">
+                    <h2>Abhay Chabuk</h2>
+                    <p>Design Head</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+                <div class="card5" style="transform: translateX(0px) scale(1); z-index: 1;">
+                    <img src="Swapnil Durafe.jpg" alt="Swapnil Durafe">
+                    <h2>Swapnil Duraf</h2>
+                    <p>Desgin Co-ordinator</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+                <div class="card5" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                    <img src="Yash Chaudhary.jpg" alt="Yash Chaudhary" >
+                    <h2>Yash Chaudhary</h2>
+                    <p>Design Co-ordinator</p>
+                    <div class="social-icons">
+                        <a href="#" class="linkedin"></a>
+                        <a href="#" class="instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <button5 class="next" onclick="nextSlide5()">&#10095;</button5>
+        </div>
+        </div>
+        <h2 class="heading">Social Media Team</h2>
+        <div class="main6">
+            
+            <div class="slider">
+                <button6 class="prev" onclick="prevSlide6()">&#10094;</button6>
+                <div class="slider-content">
+                    <div class="card6" style="transform: translateX(-100px) scale(0.8); z-index: 0;">
+                        <img src="Himanshu.jpg" alt="Himanshu Singh" height="445px" width="150px">
+                        <h2>Himanshu Singh</h2>
+                        <p>Social Media Head</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="card6" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                        <img src="https://via.placeholder.com/150" alt="Mrunal Patil" height="445px" width="150px">
+                        <h2>Mrunal Patil</h2>
+                        <p>Social Media Co-ordinator</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                <button6 class="next" onclick="nextSlide6()">&#10095;</button6>
+        </div>
+        </div>
+        <h2 class="heading">Student Co-ordinators</h2>
+        <div class="main7">
+            
+            <div class="slider">
+                <button7 class="prev" onclick="prevSlide7()">&#10094;</button7>
+                <div class="slider-content">
+                    <div class="card7" style="transform: translateX(-100px) scale(0.8); z-index: 0;">
+                        <img src="Shantanu Vhanmore.jpg" alt="Shantanu Vhanmore">
+                        <h2>Shantanu Vhanmore</h2>
+                        <p>Student Co-ordinator Head</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="card7" style="transform: translateX(0px) scale(1); z-index: 1;">
+                        <img src="Tanvi Dhanokar.jpg" alt="Tanvi Dhanokar">
+                        <h2>Tanvi Dhanokar</h2>
+                        <p>Student Co-ordinator</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="card7" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                        <img src="Samyak Dande.jpg" alt="Samyak Dande" >
+                        <h2>Samyak Dande</h2>
+                        <p>Student Co-ordinator</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="card7" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                        <img src="Devdat Dixit.jpg" alt="Devdat Dixit"height="445px" width="150px">
+                        <h2>Devdat Dixit</h2>
+                        <p>Student Co-ordinator</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="card7" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                        <img src="Suyesha Hend.jpg" alt="Suyesha Hend">
+                        <h2>Suyesha Hend</h2>
+                        <p>Student Co-ordinator</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="card7" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                        <img src="Sakshi Deshmukh.jpg" alt="Sakshi Deshmukh">
+                        <h2>Sakshi Deshmukh</h2>
+                        <p>Student Co-ordinator</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="card7" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                        <img src="https://via.placeholder.com/150" alt="Dipesh Potbhare" height="445px" width="150px">
+                        <h2>Dipesh Potbhare</h2>
+                        <p>Student Co-ordinator</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="card7" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                        <img src="Tejas Anandas.jpg" alt="Tejas Anandas">
+                        <h2>Tejas Anandas</h2>
+                        <p>Student Co-ordinator</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="card7" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                        <img src="Kaustubh Patil.jpg" alt="Kaustubh Patil">
+                        <h2>Kaustubh Patil</h2>
+                        <p>Student Co-ordinator</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="card7" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                        <img src="Shraddha Yeole.jpg" alt="Shraddha Yeole">
+                        <h2>Shraddha Yeole</h2>
+                        <p>Student Co-ordinator</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="card7" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                        <img src="Surya.jpg" alt="Surya Manickam" height="445px" width="150px">
+                        <h2>Surya Manickam</h2>
+                        <p>Student Co-ordinator</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="card7" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                        <img src="https://via.placeholder.com/150" alt="Sujal Shimpi" height="445px" width="150px">
+                        <h2>Sujal Shimpi</h2>
+                        <p>Student Co-ordinator</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="card7" style="transform: translateX(100px) scale(0.8); z-index: 0;">
+                        <img src="Tirtha Zoldeo.jpg" alt="Tirtha Zoldeo">
+                        <h2>Tirtha Zoldeo</h2>
+                        <p>Student Co-ordinator</p>
+                        <div class="social-icons">
+                            <a href="#" class="linkedin"></a>
+                            <a href="#" class="instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                <button7 class="next" onclick="nextSlide7()">&#10095;</button7>
+        </div>
+        </div>
+    </section>
+    <script src="card.js"></script>
+
+</body>
+</html>
